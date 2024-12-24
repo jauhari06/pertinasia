@@ -1,17 +1,12 @@
 # Pertinasia
 
-**Pertinasia** adalah sebuah platform berbasis web yang dikembangkan menggunakan Laravel. Website ini bertujuan untuk *[tuliskan tujuan website, misalnya "menyediakan informasi tentang pertanian di Asia"]*. Proyek ini bertempat di: [https://pertinasia.org/](https://pertinasia.org/).
-
-## Fitur Utama
-* *[Tulis fitur utama, misalnya "Artikel informatif tentang pertanian."]*
-* *[Misalnya "Forum diskusi komunitas."]*
-* *[Misalnya "Peta interaktif untuk lokasi-lokasi penting."]*
+**Pertinasia** adalah sebuah platform berbasis web yang dikembangkan menggunakan Laravel.Proyek ini bertempat di: [https://pertinasia.org/](https://pertinasia.org/).
 
 ## Teknologi yang Digunakan
 * **Backend**: Laravel versi 8.2.4
-* **Frontend**: Blade Template
+* **Frontend**: Blade Template, bootstrap
 * **Database**: MySQL
-* **Hosting**: *[sebutkan layanan hosting jika ada]*
+* **Hosting**: Cpanel
 
 ## Instalasi dan Pengaturan
 
@@ -53,32 +48,4 @@
    ```
 
    Akses website melalui `http://localhost:8000`.
-
-## Kontribusi
-Kami menyambut kontribusi dari siapapun! Silakan ikuti langkah-langkah berikut untuk berkontribusi:
-
-1. Fork repository ini.
-2. Buat branch baru untuk fitur atau perbaikan Anda:
-   ```bash
-   git checkout -b nama-branch-anda
-   ```
-3. Commit perubahan Anda:
-   ```bash
-   git commit -m "Deskripsi perubahan"
-   ```
-4. Push ke branch Anda:
-   ```bash
-   git push origin nama-branch-anda
-   ```
-5. Buat Pull Request (PR) ke branch `main`.
-
-## Lisensi
-Proyek ini dilisensikan di bawah lisensi [MIT](LICENSE).
-
-## Kontak
-Jika Anda memiliki pertanyaan atau masukan, silakan hubungi kami melalui *[tuliskan kontak atau email Anda]*.
-
----
-
-*Catatan: Jika ada informasi tambahan yang perlu dimasukkan, seperti fitur baru atau deskripsi lebih rinci, beri tahu kami.*
 
