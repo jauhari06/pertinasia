@@ -1,0 +1,113 @@
+.single_gallery_item {
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 0;
+}
+.single-portfolio-content {
+    position: relative;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.single-portfolio-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+    display: inline-block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-menu {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-menu .btn {
+    margin: 5px;
+    background-color: #e61919;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.portfolio-menu .btn.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.lx-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px !important;
+    padding: 0px;
+    margin: 0px;
+}
+
+.single_gallery_item img {
+    width: 100%;
+    height: 300px; /* Set a fixed height */
+    object-fit: cover; /* Ensure all images fit uniformly */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    padding: 0 10px;
+}
+
+/* Khusus untuk halaman galeri */
+.lx-portfolio-area.section-padding-80 {
+    padding-top: 30px; /* Kurangi padding atas untuk mengurangi jarak */
+    padding-bottom: 20px; /* Anda bisa menyesuaikan padding bawah jika diperlukan */
+}
+
+/* Atur padding untuk container agar tidak menempel pada tepi halaman */
+.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.lx-portfolio-area,
+.video-carousel {
+    max-width: 1200px; /* Set a max-width to control the overall width */
+    margin: 0 auto; /* Center the sections */
+}
+
+.video-carousel {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Media Queries untuk perangkat mobile */
+@media (max-width: 768px) {
+    .lx-portfolio {
+        grid-template-columns: repeat(
+            2,
+            1fr
+        ); /* Menampilkan 2 gambar per baris pada perangkat tablet */
+    }
+
+    .single_gallery_item img {
+        height: 200px; /* Kurangi tinggi gambar pada perangkat tablet */
+    }
+
+    .portfolio-menu .btn {
+        padding: 8px 16px; /* Kurangi padding button pada perangkat tablet */
+    }
+}
+
+@media (max-width: 480px) {
+    .lx-portfolio {
+        grid-template-columns: 1fr; /* Menampilkan 1 gambar per baris pada perangkat mobile */
+    }
+
+    .single_gallery_item img {
+        height: 150px; /* Kurangi tinggi gambar lebih lanjut pada perangkat mobile */
+    }
+
+    .portfolio-menu .btn {
+        padding: 6px 12px; /* Kurangi padding button lebih lanjut pada perangkat mobile */
+    }
+}
